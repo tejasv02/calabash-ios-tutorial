@@ -6,7 +6,6 @@ class HomePage < Page
 
   def check_button_text()
     wait_for(:timeout => 5) {element_exists("view child button label text:'#{arg1}'")}
-
   end
 
   def click_button_by_text()
